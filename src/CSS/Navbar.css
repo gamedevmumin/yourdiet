@@ -103,6 +103,10 @@ small {
 }
 
 @media (max-width: 800px) {
+  .navbar {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .nav-option {
     font-size: 1.5em;
   }
