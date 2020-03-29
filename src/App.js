@@ -15,9 +15,7 @@ function App() {
         <Route path="/dishes/:slug">
           <DishPage />
         </Route>
-        <Route path="/">
-          <div className="mainPageContent"></div>
-        </Route>
+        <Route path="/" component={DishesPage}></Route>
       </Switch>
       <Footer />
     </div>
